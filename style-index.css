@@ -673,29 +673,33 @@ button h5{
 
   /* Discover */
   .discover p{
-    color: #fff;
-    text-align: center;
     opacity: 60%;
-    font-size: 1.3vw;
+    font-size: 3.2vw;
     line-height: 1.7;
+    width: 84vw;
+    margin: 0 8vw;
+    font-weight: 300;
+  }
+
+  .discover #br-cancel{
+    display: none;
   }
 
   .discover .text-link{
-    display: flex;
-    color: #FA464B;
-    width: 16.8vw;
+    width: 42vw;
     padding: 1vw 1vw 1vw 1vw;
-    margin: 4vw 40.6vw 3vw 40.6vw;
-    white-space: nowrap;
+    margin: 8vw 27.95vw 2vw 27.95vw;
     transition: 0.4s cubic-bezier(.25,.1,.25,1);
   }
 
   .discover .text-link h2{
-    padding: 0.8vw 1vw 0 0;
+    padding: 1.3vw 3vw 0 0;
+    font-size: 3.4vw;
+    font-weight: 300;
   }
 
   .discover .text-link img{
-    width: 2.8vw;
+    width: 6vw;
   }
 
   .discover .text-link:hover{
