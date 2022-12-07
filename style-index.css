@@ -583,19 +583,6 @@ button h5{
     display: none;
   }
 
-  .links h4{
-    font-size: 1.05vw;
-    font-weight: 300;
-    padding-top: 1.35vw;
-    margin: 0 1.5vw 0.44vw 1.5vw;
-    letter-spacing: 0vw;
-    opacity: 70%;
-    transition: all 0.08s cubic-bezier(.42,0,.58,1);
-  }
-
-  .links h4:hover{
-    opacity: 100%;
-  }
 
   /* Button */
   button{
@@ -606,8 +593,6 @@ button h5{
     height: 2.9vw;
     cursor: pointer;
     border-radius: 1.5vw;
-    transition: 0.2s cubic-bezier(.25,.1,.25,1);
-    color: #fff;
   }
 
   button:hover{
