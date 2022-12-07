@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="it">
+  <head>
+
+    <!-- Meta tags -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, width=device-width, height=device-height">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css" integrity="sha512-NmLkDIU1C/C88wi324HBc+S2kLhi08PN5GDeUVVVC/BVt/9Izdsc9SVeVfA1UZbY3sHUlDSyRXhCzHfr6hmPPw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Fonts (Orbitron + Poppins) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;600;700&family=Poppins:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- AOS animations library -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- Altre impostazioni del sito -->
+    <title>MarcheRobot | Iscriviti ora</title>
+    <link rel="stylesheet" href="style-index.css">
+    <link rel="shortcut icon" type="image/svg" href="resources/favicon.webp">
+
+  </head>
+  <body>
+
+    <!-- Parallax background -->
+    <div id="parallax-bg-1">
+      <div></div>
+    </div>
+    <div id="parallax-bg-2">
+      <div></div>
+    </div>
+    <div id="parallax-bg-3">
+      <div></div>
+    </div>
+    <div id="parallax-bg-4">
+      <div></div>
+    </div>
+
+    <!-- Header -->
+    <div class="header">
+      <a id="ciao" href="#hero"><h1>MarcheRobot</h1></a>
+      <div class="links">
+        <a href="#scopri" id="ciao"><h4>Scopri</h4></a>
+        <a href="#categorie" id="ciao"><h4>Categorie</h4></a>
+        <a href="#event" id="ciao"><h4>Evento e regolamento</h4></a>
+        <a href="#join" id="ciao"><h4>Iscrizione</h4></a>
+      </div>
+      <div id="header-button">
+        <a href="#join" id="ciao">
+          <button>
+            <h5><span>Voglio partecipare!</span></h5>
+          </button>
+        </a>
+      </div>
+    </div>
+
+    <!-- Hero  -->
+    <div class="hero" id="hero">
+      <div class="subtitle">
+        <h3>Benvenuto al Contest Regionale di <span>Robotica</span> delle Marche</h3>
+      </div>
+      <h2>MarcheRobot</h2>
+      <a href="#event" id="ciao">
+        <div class="subtitle" id="subtitle2">
+          <img src="resources/down-arrow.png">
+          <h3>Scopri ora come funziona</h3>
+          <img src="resources/down-arrow.png">
+        </div>
+      </a>
+    </div>
+
+    <!-- Discover section  -->
+    <div class="title" id="scopri">
+      <h3>Scopri</h3>
+      <h4>Scopri</h4>
+    </div>
+
+    <div class="discover">
+      <p>Sei uno studente e vuoi mettere alla prova le tue competenze di robotica? Sei<br>un’insegnante di un istituto Marchigiano e pensi che i tuoi studenti possano<br>competere con altre scuole con il loro progetto di robotica?<br><br>MarcheRobot è l’occasione che stavi aspettando. Grazie a questa competizione,<br>decine di team avranno la possibilità di sfidarsi e dimostrare la qualità dei loro<br>progetti. Ogni scuola potrà presentare fino a due team di 3 persone. L'unica cosa che<br>dovranno fare sarà quella di scegliere la categoria su cui competere e costruire il<br>proprio robot.</p>
+      <a href="#categorie" class="text-link" id="ciao">
+        <h2>Esplora le categorie</h2>
+        <img src="resources/down-circle-arrow.png">
+      </a>
+    </div>
+
+    <!-- Categories section  -->
+    <div class="title" id="categorie">
+      <h3>Categorie</h3>
+      <h4>Categorie</h4>
+    </div>
+
+    <div class="categories">
+      <p>Scegli la categoria di competizione alla quale vuoi prendere parte. Migliore sarà il<br>robot che riuscirai a creare e più alte saranno le tue possibilità di vincere il contest!</p>
+      <div class="cards">
+        <div class="card">
+          <div class="card-image" id="card-image-1"></div>
+          <h3>LineFollower</h3>
+          <p>Il robot, sfruttando i sensori di colore, segue una linea<br>nera rappresentata su una pista.</p>
+        </div>
+        <div class="card">
+          <div class="card-image" id="card-image-2"></div>
+          <h3>Sumo</h3>
+          <p>Il robot deve spingere l'avversario fuori dal ring di gioco utilizzando dei sensori ad ultrasuoni e di colore.</p>
+        </div>
+        <div class="card">
+          <div class="card-image" id="card-image-3"></div>
+          <h3>Labirinto</h3>
+          <p>Il robot deve essere in grado di percorrere un labirinto in autonomia raggiungendo l’uscita.</p>
+        </div>
+        <div class="card">
+          <div class="card-image" id="card-image-4"></div>
+          <h3>Calcio</h3>
+          <p>I Robot pilotati attraverso l’applicazione lego commander si sfidano in un classico torneo di calcetto.</p>
+        </div>
+      </div>
+      <a href="#event">
+        <div class="subtitle" id="subtitle3">
+          <img src="resources/down-arrow.png">
+          <h3>Iscriviti al contest</h3>
+          <img src="resources/down-arrow.png">
+        </div>
+      </a>
+    </div>
+
+    <!-- Event section  -->
+    <div class="title" id="event">
+      <h3>Evento e regolamento</h3>
+      <h4>Evento e regolamento</h4>
+    </div>
+
+    <div class="event">
+      <div class="event__content">
+        <div class="text-group">
+          <div class="number">
+            <p style="transform: translateX(-0.05vw);">1</p>
+          </div>
+          <div class="text">
+            <h4>Iscrizione dei team al contest</h4>
+            <p>Ogni scuola Marchigiana potrà iscrivere massimo due<br>team al contest. Ognuno di essi sarà composto da 3<br>studenti under 18 che svilupperanno la propria idea</p>
+          </div>
+        </div>
+        <div class="text-group">
+          <div class="number">
+            <p>2</p>
+          </div>
+          <div class="text">
+            <h4>Sviluppo del progetto</h4>
+            <p>Ogni team, dopo aver scelto la categoria su cui<br>competere, avrà il compito di progettare e creare un<br>vero proprio prototipo sfruttando la Tecnologia Lego ev3.</p>
+          </div>
+        </div>
+        <div class="text-group">
+          <div class="number">
+            <p>3</p>
+          </div>
+          <div class="text">
+            <h4>Presentazione del prototipo</h4>
+            <p>Ogni team, Sabato 22 Aprile 2023 parteciperà all’evento finale<br>del contest ospitato dal Liceo Enrico Medi di Senigallia. Sarà<br>qui che le squadre si sfideranno per vincere.</p>
+          </div>
+        </div>
+      </div>
+      <div class="event-pictures"></div>
+    </div>
+
+
+    <!-- Sign section  -->
+    <div class="title" id="join">
+      <h3>Iscrizione</h3>
+      <h4>Iscrizione</h4>
+    </div>
+
+    <div class="sign">
+      <p>Compila il form qui sotto e iscrivi la tua scuola alla competizione. In pochi giorni ti<br>arriverà una mail di conferma della partecipazione al contest</p>
+      <form target="_blank" action="https://formsubmit.co/danieleronchini2@gmail.com" method="POST">
+         <input type="text" name="Nome del team" class="text-box" placeholder="Nome del team" required>
+         <input type="text" name="Istituto scolastico" class="text-box" placeholder="Istituto scolastico" required>
+         <input type="text" name="Categoria" class="text-box" placeholder="In che categoria parteciperai? (es. Labirinto)" required>
+         <input type="text" name="Partecipanti" class="text-box" placeholder="I 3 partecipanti (es. Mario Rossi, Gerardo Giordano, Dav…)" required>
+         <input name="_formsubmit_id" type="text" style="display:none">
+         <input type="hidden" name="_subject" value="Nuovo iscritto a MarcheRobot!">
+         <input type="hidden" name="_captcha" value="false">
+         <input type="hidden" name="_template" value="table">
+         <input type="hidden" name="_next" value="http://localhost/MarcheRobot/">
+         <button class="send-btn" type="submit">Invia la richiesta</button>
+      </form>
+    </div>
+
+    <!-- Footer  -->
+    <div class="footer">
+      <h2>Marche<span>Robot</span></h2>
+      <p> ® MarcheRobot - ospitato dal Liceo Enrico Medi di Senigallia<br>Viale IV Novembre, 21  60019 Senigallia (AN)<br>In questo sito usiamo solo cookies tecnici che non richiedono approvazione degli utenti</p>
+    </div>
+    <!-- Link to js file -->
+    <script src="script.js"></script>
+
+</body>
+</html>
