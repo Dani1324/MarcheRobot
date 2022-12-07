@@ -575,7 +575,7 @@ button h5{
   }
 
   .header h1{
-    font-size: 5.5vw;
+    font-size: 5vw;
     padding-top: 2vw;
   }
 
@@ -588,10 +588,10 @@ button h5{
   button{
     background-color: #FA464B;
     border: 0.2vw solid #FA464B;
-    margin-top: 1vw;
-    width: 30vw;
-    height: 7vw;
-    border-radius: 3.5vw;
+    margin-top: 0.5vw;
+    width: 34vw;
+    height: 8.4vw;
+    border-radius: 4.2vw;
   }
 
   button:hover{
@@ -603,7 +603,8 @@ button h5{
   }
 
   button h5{
-    font-size: 2.4vw;
+    font-size: 2.7vw;
+    font-weight: 400;
     margin: 0.3vw 0 0 0vw;
   }
 
