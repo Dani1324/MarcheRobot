@@ -655,24 +655,18 @@ button h5{
 
   /* Title settings */
   .title{
-    text-align: center;
-    font-weight: 400;
-    padding-top: 13vw;
+    padding-top: 30vw;
   }
 
   .title h3{
-    position: relative;
-    font-size: 2.7vw;
-    color: #fff;
-    z-index: 2;
+    font-size: 5.4vw;
   }
 
   .title h4{
-    font-size: 4.3vw;
-    transform: translateY(-4.8vw);
-    text-shadow: 0.05vw 0 #FA464B, 0.05vw 0 #FA464B, 0 0.05vw #FA464B, 0 -0.05vw #FA464B, 0.025vw 0.025vw #FA464B, -0.025vw -0.025vw #FA464B, 0.025vw -0.025vw #FA464B, -0.025vw 0.025vw #FA464B;
-    z-index: 1;
-    opacity: 0.35;
+    font-size: 8.6vw;
+    transform: translateY(-9.2vw);
+    text-shadow: 0.1vw 0 #FA464B, 0.1vw 0 #FA464B, 0 0.1vw #FA464B, 0 -0.1vw #FA464B, 0.05vw 0.05vw #FA464B, -0.05vw -0.05vw #FA464B, 0.05vw -0.05vw #FA464B, -0.05vw 0.05vw #FA464B;
+    opacity: 0.4;
   }
 
 
