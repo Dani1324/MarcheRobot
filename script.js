@@ -51,7 +51,7 @@ window.addEventListener('scroll', function(){
   if (width > 1025) {
     if(document.documentElement.scrollTop > 40){
       $(".header").css("padding", "0.7vw 8vw 1.1vw 8vw");
-      $(".header").css("border-bottom", "0.07vw solid rgba(255, 255, 255, 0.1)");
+      $(".header").css("border-bottom", "0.1vw solid rgba(255, 255, 255, 0.1)");
       $(".header").css("background-color", "rgba(10, 3, 10, 0.6)");
       $(".header").css("backdrop-filter", "blur(10px)");
     }
