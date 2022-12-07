@@ -664,8 +664,8 @@ button h5{
   }
 
   .title h4{
-    font-size: 8.6vw;
-    transform: translateY(-9.2vw);
+    font-size: 7.6vw;
+    transform: translateY(-8.6vw);
     text-shadow: 0.1vw 0 #FA464B, 0.1vw 0 #FA464B, 0 0.1vw #FA464B, 0 -0.1vw #FA464B, 0.05vw 0.05vw #FA464B, -0.05vw -0.05vw #FA464B, 0.05vw -0.05vw #FA464B, -0.05vw 0.05vw #FA464B;
     opacity: 0.4;
   }
@@ -723,66 +723,44 @@ button h5{
 
   .categories .cards{
     width: 84vw;
-    margin: 4vw 8vw;
-    display: flex;
+    margin: 10vw 8vw 4vw 8vw;
+    display: block;
   }
 
   .categories .cards .card{
-    width: 20vw;
-    margin: 0 0.5vw;
-    border-radius: 0.5vw;
-    background-color: #171617;
-    border: 0.1vw solid #2B2A2B;
-    padding: 2vw;
-    transition: 0.14s cubic-bezier(.25,.1,.25,1);
+    width: 71.5vw;
+    margin: 4vw 0;
+    border-radius: 1vw;
+    border: 0.2vw solid #2B2A2B;
+    padding: 6vw;
   }
 
   .categories .cards .card:hover{
-    transform: scale(1.04);
-    border: 0.1vw solid #FA464B;
+    border: 0.2vw solid #FA464B;
   }
 
   .categories .cards .card .card-image{
-    margin-left: 0.1vw;
-    width: 3.2vw;
-    height: 3.2vw;
-    background-size: contain;
-    background-position: center;
-    background-repeat: no-repeat;
+    margin-left: 0.6vw;
+    width: 9vw;
+    height: 9vw;
   }
 
-  #card-image-1{ background-image: url('resources/card-image-1.png');}
-  #card-image-2{ background-image: url('resources/card-image-2.png');}
-  #card-image-3{ background-image: url('resources/card-image-3.png');}
-  #card-image-4{ background-image: url('resources/card-image-4.png');}
-
   .categories .cards .card h3{
-    color: #fff;
-    font-size: 1.6vw;
-    font-weight: 400;
-    margin: 2vw 0 1vw 0;
+    font-size: 3.6vw;
+    margin: 5vw 0 3vw 0;
   }
 
   .categories .cards .card p{
-    color: #fff;
-    font-size: 1vw;
-    text-align: left;
+    font-size: 3vw;
     opacity: 0.5;
+    margin: 0vw;
+    width: 71.5vw;
   }
 
   #subtitle3{
-    width: 15.3vw;
-    margin: 3vw 42.05vw;
-    padding: 1.2vw 0.3vw;
-    transition: 0.2s cubic-bezier(.25,.1,.25,1);
-  }
-
-  #subtitle3:hover{
-    transform: scale(1.03);
-  }
-
-  #subtitle3:active{
-    transform: scale(0.98);
+    width: 34vw;
+    margin: 10vw 31.2vw 4vw 31.2vw;
+    padding: 2.8vw 1.8vw 2.7vw 1.8vw;
   }
 
 
@@ -790,7 +768,7 @@ button h5{
   .event{
     width: 84vw;
     margin: 4vw 8vw;
-    display: flex;
+    display: block;
   }
 
   .event .event__content{
