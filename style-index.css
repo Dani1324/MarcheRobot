@@ -598,10 +598,6 @@ button h5{
     border: 0.2vw solid #FA464B;
   }
 
-  button:active{
-    transform: scale(0.95);
-  }
-
   button h5{
     font-size: 2.7vw;
     font-weight: 400;
@@ -614,26 +610,21 @@ button h5{
     width: 84vw;
     margin: 0 8vw;
     padding-top: 30vw;
-    color: #fff;
-    text-align: center;
   }
 
   .subtitle{
-    width: 32.5vw;
-    margin: 0 23.75vw;
-    padding: 1.2vw 2vw;
-    border: 0.1vw solid rgba(250, 70, 75, 0.5);
+    width: 81vw;
+    margin: 0vw;
+    padding: 2.6vw 1.5vw;
+    border: 0.2vw solid rgba(250, 70, 75, 0.5);
     border-radius: 5vw;
-    display: flex;
   }
 
   .subtitle h3{
-    font-size: 1.08vw;
+    font-size: 2.7vw;
     padding-top: 0.2vw;
-  }
-
-  .subtitle span{
-    color: rgb(250, 70, 75);
+    text-align: center;
+    width: 100%;
   }
 
   .subtitle img{
@@ -642,17 +633,14 @@ button h5{
   }
 
   .hero h2{
-    font-family: 'Orbitron';
-    color: rgb(250, 70, 75);
-    margin: 2vw 0 3vw 0;
-    font-size: 5.15vw;
-    font-weight: 600;
+    margin: 5vw 0 6vw 0;
+    font-size: 11vw;
   }
 
   #subtitle2{
-    width: 20vw;
-    margin: 0 31.7vw;
-    padding: 1.2vw 0.3vw;
+    width: 41.5vw;
+    margin: 0 20.95vw;
+    padding: 2.6vw 0.3vw;
     transition: 0.2s cubic-bezier(.25,.1,.25,1);
   }
 
