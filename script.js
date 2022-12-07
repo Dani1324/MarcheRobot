@@ -41,14 +41,15 @@ let bubble4 = document.getElementById('parallax-bg-4');
 window.addEventListener('scroll', function(){
   let value = window.scrollY;
 
-  bubble1.style.top = value * 0.050 + 'vh';
-  bubble2.style.top = value * 0.065 + 'vh';
-  bubble3.style.top = value * 0.040 + 'vh';
-  bubble4.style.top = value * 0.020 + 'vw';
-
   var iOS = !window.MSStream && /iPad|iPhone|iPod/.test(navigator.userAgent);
 
   if (width > 1025) {
+
+    bubble1.style.top = value * 0.050 + 'vh';
+    bubble2.style.top = value * 0.065 + 'vh';
+    bubble3.style.top = value * 0.040 + 'vh';
+    bubble4.style.top = value * 0.020 + 'vw';
+
     if(document.documentElement.scrollTop > 40){
       $(".header").css("padding", "0.7vw 8vw 1.1vw 8vw");
       $(".header").css("border-bottom", "0.07vw solid rgba(255, 255, 255, 0.1)");
@@ -63,6 +64,12 @@ window.addEventListener('scroll', function(){
     }
   }
   else {
+
+    bubble1.style.top = value * 0.050 + 'vh';
+    bubble2.style.top = value * 0.030 + 'vh';
+    bubble3.style.top = value * 0.025 + 'vh';
+    bubble4.style.top = value * 0.040 + 'vw';
+
     if(document.documentElement.scrollTop > 20){
       $(".header").css("padding", "1.3vh 8vw 1.5vh 8vw");
       $(".header").css("border-bottom", "0.2vw solid rgba(255, 255, 255, 0.14)");
