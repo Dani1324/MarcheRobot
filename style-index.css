@@ -730,7 +730,7 @@ button h5{
   .categories .cards .card{
     width: 71.5vw;
     margin: 4vw 0;
-    border-radius: 1vw;
+    border-radius: 1.8vw;
     border: 0.2vw solid #2B2A2B;
     padding: 6vw;
   }
@@ -772,7 +772,7 @@ button h5{
   }
 
   .event .event__content{
-    width: 50%;
+    width: 100%;
     padding: 1.5vw 0;
   }
 
@@ -816,7 +816,9 @@ button h5{
   }
 
   .event .event-pictures{
-    width: 50%;
+    width: 76vw;
+    height: 76vw;
+    margin: 5vw 4vw 0 4vw;
     background-image: url('resources/pictures.png');
     background-size: contain;
     background-position: center;
