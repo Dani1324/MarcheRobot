@@ -822,28 +822,27 @@ button h5{
 
   /* Sign */
   .sign p{
-    color: #fff;
-    text-align: center;
     opacity: 60%;
-    font-size: 1.3vw;
+    font-size: 3.2vw;
     line-height: 1.7;
+    width: 84vw;
+    margin: 0 8vw;
+    font-weight: 300;
   }
 
   .sign form{
-    width: 34vw;
-    margin: 3vw 33vw;
+    width: 80vw;
+    margin: 7vw 10vw;
   }
 
   .sign input{
-    font-family: 'Poppins';
-    width: 30.4vw;
-    margin: 0.65vw 0;
-    padding: 1.6vw 1.8vw 1.4vw 1.8vw;
-    font-size: 1.05vw;
-    color: rgba(255, 255, 255, 0.7);
+    width: 73.2vw;
+    margin: 1.5vw 0;
+    padding: 3.4vw 3.6vw 3.4vw 3.5vw;
+    font-size: 3.2vw;
     background-color: #171617;
     border: 0.1vw solid #2B2A2B;
-    border-radius: 0.5vw;
+    border-radius: 1.8vw;
   }
 
   .sign button{
