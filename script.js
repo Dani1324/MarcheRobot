@@ -65,13 +65,13 @@ window.addEventListener('scroll', function(){
   else {
     if(document.documentElement.scrollTop > 20){
       $(".header").css("padding", "1.3vh 8vw 1.5vh 8vw");
-      $(".header").css("border-bottom", "0.2vw solid rgba(35, 36, 42, 0.06)");
+      $(".header").css("border-bottom", "0.2vw solid rgba(255, 255, 255, 0.14)");
       $(".header").css("background-color", "rgba(10, 3, 10, 0.6)");
       $(".header").css("backdrop-filter", "blur(10px)");
     }
     else {
       $(".header").css("padding", "2.3vh 8vw 2.5vh 8vw");
-      $(".header").css("border-bottom", "0vw solid rgba(35, 36, 42, 0.05)");
+      $(".header").css("border-bottom", "0vw solid rgba(255, 255, 255, 0.05)");
       $(".header").css("background-color", "rgba(10, 3, 10, 0)");
       $(".header").css("backdrop-filter", "blur(0px)");
     }
