@@ -47,7 +47,7 @@ window.addEventListener('scroll', function(){
 
     bubble1.style.top = value * 0.060 + 'vh';
     bubble2.style.top = value * 0.080 + 'vh';
-    bubble3.style.top = value * 0.025 + 'vh';
+    bubble3.style.top = value * 0.040 + 'vh';
     bubble4.style.top = value * 0.030 + 'vw';
 
     if(document.documentElement.scrollTop > 40){
