@@ -137,7 +137,7 @@ a{ text-decoration: none; color: #ffffff; cursor: pointer;}
 /* Button */
 button{
   background-color: #FA464B;
-  border: 1.5px solid #FA464B;
+  border: 0.1vw solid #FA464B;
   margin-top: 0.35vw;
   width: 13vw;
   height: 2.9vw;
@@ -587,18 +587,15 @@ button h5{
   /* Button */
   button{
     background-color: #FA464B;
-    border: 1.5px solid #FA464B;
-    margin-top: 0.35vw;
-    width: 13vw;
-    height: 2.9vw;
-    cursor: pointer;
-    border-radius: 1.5vw;
+    border: 0.2vw solid #FA464B;
+    margin-top: 2vw;
+    width: 30vw;
+    height: 7vw;
+    border-radius: 3.5vw;
   }
 
   button:hover{
-    color: #FA464B;
-    background-color: rgba(255, 255, 255, 0);
-    border: 0.1vw solid #FA464B;
+    border: 0.2vw solid #FA464B;
   }
 
   button:active{
@@ -606,13 +603,8 @@ button h5{
   }
 
   button h5{
-    font-family: 'Poppins';
-    font-size: 1vw;
-    font-weight: 300;
-    margin: 0.15vw 0 0 0vw;
-    white-space: nowrap;
-    text-align: center;
-    width: 100%;
+    font-size: 2.4vw;
+    margin: 0.3vw 0 0 0vw;
   }
 
 
