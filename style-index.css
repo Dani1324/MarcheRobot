@@ -773,46 +773,40 @@ button h5{
 
   .event .event__content{
     width: 100%;
-    padding: 1.5vw 0;
+    padding: 0;
   }
 
   .event .text-group{
-    color: #fff;
-    display: flex;
-    padding: 1.5vw 0;
+    padding: 6vw 0;
   }
 
   .event .text-group .number{
-    border-radius: 2vw;
-    border: 0.1vw solid rgba(250, 70, 75, 0.5);
-    width: 3.3vw;
-    height: 3.3vw;
-    margin: 2.2vw 2vw 0 0;
+    border-radius: 3.5vw;
+    border: 0.2vw solid rgba(250, 70, 75, 0.5);
+    width: 7vw;
+    height: 7vw;
+    margin: 2.2vw 4vw 0 0;
   }
 
   .event .text-group .number p{
-    font-family: 'Orbitron';
-    color: #FA464B;
-    text-align: center;
-    padding-top: 1vw;
-    font-size: 1.4vw;
+    padding-top: 1.8vw;
+    font-size: 3.4vw;
     width: 100%;
   }
 
+  .event .text-group .text{
+    width: 73vw;
+  }
+
   .event .text-group .text h4{
-    color: #fff;
-    font-size: 1.5vw;
-    font-weight: 400;
-    padding-bottom: 1.1vw;
+    font-size: 3.8vw;
+    padding-bottom: 2.2vw;
+    font-weight: 300;
   }
 
   .event .text-group .text p{
-    color: #fff;
-    font-size: 1vw;
-    font-weight: 300;
-    text-align: left;
+    font-size: 3vw;
     opacity: 0.6;
-    line-height: 1.6;
   }
 
   .event .event-pictures{
