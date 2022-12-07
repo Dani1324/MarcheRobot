@@ -572,6 +572,7 @@ button h5{
   .header{
     justify-content: space-between;
     padding: 2.3vh 8vw 0.5vw 8vw;
+    transition: all 0.14s cubic-bezier(.17,.67,.86,.58);
   }
 
   .header h1{
