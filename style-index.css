@@ -846,45 +846,27 @@ button h5{
   }
 
   .sign button{
-    font-family: 'Poppins';
-    font-size: 1.1vw;
-    font-weight: 300;
-    text-align: center;
-    width: 18vw;
-    height: 4vw;
-    opacity: 1;
-    margin: 3.2vw 8vw 0 8vw;
-    color: rgba(255, 255, 255, 1);
-    background-color: rgba(255, 0, 0, 0);
-    border: 0.1vw solid rgba(250, 70, 75, 0.4);
-    border-radius: 2vw;
+    font-size: 3.4vw;
+    width: 40vw;
+    height: 10vw;
+    margin: 8vw 20vw 0 20vw;
+    border: 0.2vw solid rgba(250, 70, 75, 0.4);
+    border-radius: 5vw;
     transition: 0.25s cubic-bezier(.25,.1,.25,1);
-  }
-
-  .sign button:hover{
-    background-color: rgba(250, 70, 75, 1);
   }
 
 
   /* Footer */
   .footer h2{
-    font-family: 'Orbitron';
-    font-size: 2vw;
-    color: #fff;
-    text-align: center;
-    margin-top: 11vw;
-  }
-
-  .footer span{
-    color: #FA464B;
+    font-size: 4.6vw;
+    margin-top: 20vw;
   }
 
   .footer p{
-    text-align: center;
-    font-size: 0.9vw;
-    color: #fff;
+    width: 80%;
+    font-size: 2.6vw;
     opacity: 0.4;
-    margin: 2vw 0 4vw 0;
+    margin: 4vw 10% 8vw 10%;
     line-height: 1.7;
   }
 
