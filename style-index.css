@@ -628,8 +628,8 @@ button h5{
   }
 
   .subtitle img{
-    height: 1.3vw;
-    padding: 0 1.1vw;
+    height: 3vw;
+    padding: 0 1vw;
   }
 
   .hero h2{
@@ -638,9 +638,9 @@ button h5{
   }
 
   #subtitle2{
-    width: 41.5vw;
-    margin: 0 20.95vw;
-    padding: 2.6vw 0.3vw;
+    width: 45vw;
+    margin: 0 17.8vw;
+    padding: 2.6vw 1.7vw;
     transition: 0.2s cubic-bezier(.25,.1,.25,1);
   }
 
