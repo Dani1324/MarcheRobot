@@ -681,7 +681,7 @@ button h5{
     font-weight: 300;
   }
 
-  .discover #br-cancel{
+  #br-cancel{
     display: none;
   }
 
@@ -713,11 +713,12 @@ button h5{
 
   /* Categories */
   .categories p{
-    color: #fff;
-    text-align: center;
     opacity: 60%;
-    font-size: 1.3vw;
+    font-size: 3.2vw;
     line-height: 1.7;
+    width: 84vw;
+    margin: 0 8vw;
+    font-weight: 300;
   }
 
   .categories .cards{
