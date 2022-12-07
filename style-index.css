@@ -640,7 +640,7 @@ button h5{
   #subtitle2{
     width: 45vw;
     margin: 0 17.8vw;
-    padding: 2.6vw 1.7vw;
+    padding: 2.7vw 1.7vw 2.6vw 1.7vw;
     transition: 0.2s cubic-bezier(.25,.1,.25,1);
   }
 
