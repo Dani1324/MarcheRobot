@@ -51,7 +51,7 @@ window.addEventListener('scroll', function(){
   if (width > 1025) {
     if(document.documentElement.scrollTop > 40){
       $(".header").css("padding", "0.7vw 8vw 1.1vw 8vw");
-      $(".header").css("border-bottom", "0.1vw solid rgba(255, 255, 255, 0.1)");
+      $(".header").css("border-bottom", "0.07vw solid rgba(255, 255, 255, 0.1)");
       $(".header").css("background-color", "rgba(10, 3, 10, 0.6)");
       $(".header").css("backdrop-filter", "blur(10px)");
     }
@@ -64,13 +64,13 @@ window.addEventListener('scroll', function(){
   }
   else {
     if(document.documentElement.scrollTop > 20){
-      $(".header").css("padding", "1.5vh 8vw 1.5vh 8vw");
-      $(".header").css("border-bottom", "0.17vw solid rgba(35, 36, 42, 0.05)");
+      $(".header").css("padding", "1.3vh 8vw 1.5vh 8vw");
+      $(".header").css("border-bottom", "0.2vw solid rgba(35, 36, 42, 0.06)");
       $(".header").css("background-color", "rgba(10, 3, 10, 0.6)");
       $(".header").css("backdrop-filter", "blur(10px)");
     }
     else {
-      $(".header").css("padding", "2.5vh 8vw 2.5vh 8vw");
+      $(".header").css("padding", "2.3vh 8vw 2.5vh 8vw");
       $(".header").css("border-bottom", "0vw solid rgba(35, 36, 42, 0.05)");
       $(".header").css("background-color", "rgba(10, 3, 10, 0)");
       $(".header").css("backdrop-filter", "blur(0px)");

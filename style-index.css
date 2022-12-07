@@ -570,8 +570,8 @@ button h5{
 
   /* Header */
   .header{
-    justify-content:space-between;
-    padding: 1.8vw 8vw 0.5vw 8vw;
+    justify-content: space-between;
+    padding: 2.3vh 8vw 0.5vw 8vw;
   }
 
   .header h1{
