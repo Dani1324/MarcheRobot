@@ -410,7 +410,7 @@ button h5{
 
 .event .event-pictures{
   width: 50%;
-  background-image: url('resources/pictures.png');
+  background-image: url('resources/pictures.webp');
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
