@@ -57,13 +57,13 @@ a{ text-decoration: none; color: #ffffff; cursor: pointer;}
 
 .popup h2{
   font-family: 'Orbitron';
-  font-size: 2vw;
+  font-size: 1.8vw;
   font-weight: 500;
   padding-bottom: 0.4vw;
 }
 
 .popup h3{
-  font-size: 1.2vw;
+  font-size: 1.05vw;
   font-weight: 400;
   opacity: 0.5;
 }
@@ -71,7 +71,7 @@ a{ text-decoration: none; color: #ffffff; cursor: pointer;}
 .popup .close{
   color: #232429;
   position: absolute;
-  top: 2.4vw;
+  top: 2.3vw;
   right: 2vw;
   transition: cubic-bezier(.17,.67,.86,.58) 0.4s;
   font-size: 3vw;
