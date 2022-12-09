@@ -9,7 +9,7 @@ body{
   top: 0;
   padding: 0;
   overflow: hidden;
-  background-image: url('resources/sprinkle-effect.png');
+  background-image: url('resources/sprinkle-effect.webp');
   background-repeat: repeat-y;
   background-size: cover;
 }
@@ -385,10 +385,10 @@ button h5{
   background-repeat: no-repeat;
 }
 
-#card-image-1{ background-image: url('resources/card-image-1.png');}
-#card-image-2{ background-image: url('resources/card-image-2.png');}
-#card-image-3{ background-image: url('resources/card-image-3.png');}
-#card-image-4{ background-image: url('resources/card-image-4.png');}
+#card-image-1{ background-image: url('resources/card-image-1.webp');}
+#card-image-2{ background-image: url('resources/card-image-2.webp');}
+#card-image-3{ background-image: url('resources/card-image-3.webp');}
+#card-image-4{ background-image: url('resources/card-image-4.webp');}
 
 .categories .cards .card h3{
   color: #fff;
