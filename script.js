@@ -83,4 +83,12 @@ window.addEventListener('scroll', function(){
       $(".header").css("backdrop-filter", "blur(0px)");
     }
   }
-})
+});
+
+// Remove 000webhost watermark
+document.addEventListener('DOMContentLoaded', ()=>{
+  var disclaimer = document.querySelector('img[alt="www.000.webhost.com"]');
+  if (disclaimer) {
+    disclaimer.remove();
+  }
+});
