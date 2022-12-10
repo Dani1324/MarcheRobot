@@ -87,7 +87,7 @@ window.addEventListener('scroll', function(){
 
 // Remove 000webhost watermark
 document.addEventListener('DOMContentLoaded', ()=>{
-  var disclaimer = document.querySelector('img[alt="www.000.webhost.com"]');
+  var disclaimer = document.querySelector('img[alt="www.000webhost.com"]');
   if (disclaimer) {
     disclaimer.remove();
   }
