@@ -201,6 +201,7 @@ a{ text-decoration: none; color: #ffffff; cursor: pointer;}
 /* Button */
 button{
   background-color: #FA464B;
+  text-shadow: 2px 2px 11px rgba(0, 0, 0, 0.18);
   border: 0.1vw solid #FA464B;
   margin-top: 0.35vw;
   width: 13vw;
@@ -242,8 +243,8 @@ button h5{
 }
 
 .subtitle{
-  width: 32.5vw;
-  margin: 0 23.75vw;
+  width: 31vw;
+  margin: 0 24.5vw;
   padding: 1.2vw 2vw;
   border: 0.1vw solid rgba(250, 70, 75, 0.5);
   border-radius: 5vw;
@@ -253,6 +254,8 @@ button h5{
 .subtitle h3{
   font-size: 1.08vw;
   padding-top: 0.2vw;
+  width: 100%;
+  text-align: center;
 }
 
 .subtitle span{
@@ -715,22 +718,22 @@ button h5{
   }
 
   .subtitle{
-    width: 81vw;
+    width: 82vw;
     margin: 0vw;
-    padding: 2.8vw 1.5vw 2.7vw 1.5vw;
-    border: 0.2vw solid rgba(250, 70, 75, 0.5);
+    padding: 2.8vw 1vw 2.7vw 1vw;
+    border: 0.2vw solid rgba(250, 70, 75, 0.7);
     border-radius: 5vw;
   }
 
   .subtitle h3{
-    font-size: 2.7vw;
+    font-size: 3.3vw;
     padding-top: 0.2vw;
     text-align: center;
     width: 100%;
   }
 
   .subtitle img{
-    height: 3vw;
+    height: 3.4vw;
     padding: 0 1vw;
   }
 
@@ -740,8 +743,8 @@ button h5{
   }
 
   #subtitle2{
-    width: 45vw;
-    margin: 0 17.8vw;
+    width: 54vw;
+    margin: 0 13.3vw;
     padding: 2.7vw 1.7vw 2.6vw 1.7vw;
     transition: 0.2s cubic-bezier(.25,.1,.25,1);
   }
@@ -761,21 +764,21 @@ button h5{
   }
 
   .title h3{
-    font-size: 5.4vw;
+    font-size: 6vw;
   }
 
   .title h4{
-    font-size: 7.6vw;
-    transform: translateY(-8.6vw);
+    font-size: 9vw;
+    transform: translateY(-10.1vw);
     text-shadow: 0.1vw 0 #FA464B, 0.1vw 0 #FA464B, 0 0.1vw #FA464B, 0 -0.1vw #FA464B, 0.05vw 0.05vw #FA464B, -0.05vw -0.05vw #FA464B, 0.05vw -0.05vw #FA464B, -0.05vw 0.05vw #FA464B;
-    opacity: 0.4;
+    opacity: 0.5;
   }
 
 
   /* Discover */
   .discover p{
     opacity: 60%;
-    font-size: 3.2vw;
+    font-size: 3.4vw;
     line-height: 1.7;
     width: 84vw;
     margin: 0 8vw;
@@ -815,7 +818,7 @@ button h5{
   /* Categories */
   .categories p{
     opacity: 60%;
-    font-size: 3.2vw;
+    font-size: 3.4vw;
     line-height: 1.7;
     width: 84vw;
     margin: 0 8vw;
@@ -842,25 +845,25 @@ button h5{
 
   .categories .cards .card .card-image{
     margin-left: 0.6vw;
-    width: 9vw;
-    height: 9vw;
+    width: 11vw;
+    height: 11vw;
   }
 
   .categories .cards .card h3{
-    font-size: 3.6vw;
+    font-size: 4vw;
     margin: 5vw 0 3vw 0;
   }
 
   .categories .cards .card p{
-    font-size: 3vw;
+    font-size: 3.4vw;
     opacity: 0.5;
     margin: 0vw;
     width: 71.5vw;
   }
 
   #subtitle3{
-    width: 34vw;
-    margin: 10vw 31.2vw 4vw 31.2vw;
+    width: 40vw;
+    margin: 10vw 30vw 4vw 30vw;
     padding: 2.8vw 1.8vw 2.7vw 1.8vw;
   }
 
@@ -886,7 +889,7 @@ button h5{
     border: 0.2vw solid rgba(250, 70, 75, 0.5);
     width: 7vw;
     height: 7vw;
-    margin: 2.2vw 4vw 0 0;
+    margin: 10vw 4vw 0 0;
   }
 
   .event .text-group .number p{
@@ -900,13 +903,13 @@ button h5{
   }
 
   .event .text-group .text h4{
-    font-size: 3.8vw;
+    font-size: 4vw;
     padding-bottom: 2.2vw;
     font-weight: 300;
   }
 
   .event .text-group .text p{
-    font-size: 3vw;
+    font-size: 3.3vw;
     opacity: 0.6;
   }
 
@@ -924,7 +927,7 @@ button h5{
   /* Sign */
   .sign p{
     opacity: 60%;
-    font-size: 3.2vw;
+    font-size: 3.4vw;
     line-height: 1.7;
     width: 84vw;
     margin: 0 8vw;
@@ -938,20 +941,20 @@ button h5{
 
   .sign input{
     width: 73.2vw;
-    margin: 1.5vw 0;
+    margin: 3vw 0;
     padding: 3.5vw 3.6vw 3.4vw 3.5vw;
-    font-size: 3.2vw;
+    font-size: 3.4vw;
     background-color: #171617;
     border: 0.1vw solid #2B2A2B;
     border-radius: 1.8vw;
   }
 
   .sign button{
-    font-size: 3.4vw;
+    font-size: 3.6vw;
     width: 40vw;
     height: 10vw;
     margin: 8vw 20vw 0 20vw;
-    border: 0.2vw solid rgba(250, 70, 75, 0.4);
+    border: 0.2vw solid rgba(250, 70, 75, 0.7);
     border-radius: 5vw;
     transition: 0.25s cubic-bezier(.25,.1,.25,1);
   }

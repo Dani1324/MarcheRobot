@@ -30,6 +30,12 @@ $("a#ciao").on('click', function(event) {
   }
 });
 
+function textchange() {
+  if (width<1025) {
+    $('#text-change').html('Benvenuto al Contest Marchigiano di <span>Robotica</span>');
+  };
+};
+
 
 // Effects at scroll
 let header = document.getElementsByClassName('.header');
@@ -40,7 +46,6 @@ let bubble4 = document.getElementById('parallax-bg-4');
 
 window.addEventListener('scroll', function(){
   let value = window.scrollY;
-
   var iOS = !window.MSStream && /iPad|iPhone|iPod/.test(navigator.userAgent);
 
   if (width > 1025) {
