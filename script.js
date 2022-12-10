@@ -15,7 +15,7 @@ function textchange() {
 
 
 // Add smooth scrolling to all links
-$("a#ciao").on('click', function(event) {
+$("a.smooth").on('click', function(event) {
 
   // Make sure this.hash has a value before overriding default behavior
   if (this.hash !== "") {
