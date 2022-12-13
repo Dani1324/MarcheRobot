@@ -104,6 +104,6 @@ window.addEventListener('mousewheel', function(e) {
   // Verifica se l'utente sta scorrendo verso il basso
   if (e.deltaY > 0) {
     // Aumenta la velocità di scorrimento
-    window.scrollBy(0, 8);
+    window.scrollBy(0, 6);
   }
 });
