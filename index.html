@@ -52,7 +52,7 @@
 
     <!-- Header -->
     <div class="header">
-      <a id="" href="#hero" data-aos="fade-down" data-aos-duration="1200"><h1>MarcheRobot</h1></a>
+      <a href="#hero" class="smooth" data-aos="fade-down" data-aos-duration="1200"><h1>MarcheRobot</h1></a>
       <div class="links">
         <a href="#scopri" class="smooth" data-aos="fade-down" data-aos-delay="600"><h4>Scopri</h4></a>
         <a href="#categorie" class="smooth" data-aos="fade-down" data-aos-delay="800"  data-aos-duration="800"><h4>Categorie</h4></a>
@@ -90,8 +90,8 @@
     </div>
 
     <div class="discover">
-      <p>Sei uno studente e vuoi mettere alla prova le tue competenze di robotica? Sei<br id="br-cancel"> un’insegnante di un istituto Marchigiano e pensi che i tuoi studenti possano<br id="br-cancel"> competere con altre scuole con il loro progetto di robotica?<br><br>MarcheRobot è l’occasione che stavi aspettando. Grazie a questa competizione,<br id="br-cancel"> decine di team avranno la possibilità di sfidarsi e dimostrare la qualità dei loro<br id="br-cancel"> progetti. Ogni scuola potrà presentare fino a due team di 3 persone. L'unica cosa che<br id="br-cancel"> dovranno fare sarà quella di scegliere la categoria su cui competere e costruire il<br id="br-cancel"> proprio robot.</p>
-      <a href="#categorie" class="text-link" class="smooth">
+      <p>Sei uno studente e vuoi mettere alla prova le tue competenze di robotica? Sei<br id="br-cancel"> un’insegnante di un istituto Marchigiano e pensi che i tuoi studenti possano<br id="br-cancel"> competere con altre scuole con il loro progetto di robotica?<br><br>MarcheRobot è l’occasione che stavi aspettando. Grazie a questa competizione,<br id="br-cancel"> decine di team avranno la possibilità di sfidarsi e dimostrare la qualità dei loro<br id="br-cancel"> progetti. Ogni scuola potrà presentare fino a due team di 3 persone.</p>
+      <a href="#categorie" class="smooth text-link">
         <h2>Esplora le categorie</h2>
         <img src="resources/down-circle-arrow.webp" alt="Explore all the categories">
       </a>
@@ -104,7 +104,7 @@
     </div>
 
     <div class="categories">
-      <p data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-offset="100" data-aos-delay="300">Scegli la categoria di competizione alla quale vuoi prendere parte. Migliore sarà il<br id="br-cancel"> robot che riuscirai a creare e più alte saranno le tue possibilità di vincere il contest!</p>
+      <p data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-offset="100" data-aos-delay="300">Programma il tuo robot in modo tale da adattarsi<br id="br-cancel">al meglio a tutte le categorie di gara</p>
       <div class="cards">
         <div class="card">
           <div class="card-image" id="card-image-1"></div>
@@ -187,10 +187,11 @@
       <form target="_blank" action="https://formsubmit.co/534a053cdc406c910776cc5d5d86bc4d" method="POST">
          <input type="text" name="Nome del team" class="text-box" placeholder="Nome del team" required>
          <input type="text" name="Istituto scolastico" class="text-box" placeholder="Istituto scolastico" required>
-         <input type="text" name="Categoria" class="text-box" placeholder="In che categoria parteciperai? (es. Labirinto)" required>
-         <input type="text" name="Partecipanti" class="text-box" placeholder="I 3 partecipanti (es. Mario Rossi, Gerardo Giordano, Dav…)" required>
+         <input type="text" name="Docente" class="text-box" placeholder="Docente (es. Mario Rossi)" required>
+         <input type="text" name="Partecipanti" class="text-box" placeholder="I 3 partecipanti (es. Paolo Colombo, Gerardo Giordano, ...)" required>
+         <input type="email" name="Mail del docente" class="text-box" placeholder="Mail del docente" required>
          <input name="_formsubmit_id" type="text" style="display:none">
-         <input type="hidden" name="_subject" value="Nuovo iscritto a MarcheRobot!">
+         <input type="hidden" name="_subject" value="Una squadra vuole iscriversi a MarcheRobot!">
          <input type="hidden" name="_captcha" value="false">
          <input type="hidden" name="_template" value="table">
          <input type="hidden" name="_next" value="https://marcherobot.000webhostapp.com/#Richiesta-accettata">
