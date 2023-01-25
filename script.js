@@ -74,7 +74,7 @@ window.addEventListener('scroll', function(){
     bubble1.style.top = value * 0.050 + 'vh';
     bubble2.style.top = value * 0.028 + 'vh';
     bubble3.style.top = value * 0.045 + 'vh';
-    bubble4.style.top = value * 0.085 + 'vw';
+    bubble4.style.top = value * 0.030 + 'vh';
 
     if(document.documentElement.scrollTop > 20){
       $(".header").css("padding", "1.3vh 8vw 1.5vh 8vw");
