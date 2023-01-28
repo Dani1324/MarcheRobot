@@ -24,14 +24,6 @@
   </head>
   <body onload="textchange()">
 
-    <script type="text/javascript">
-      function textchange() {
-        if (width < 1025) {
-          $("#subtitle-change").html("Benvenuto al Contest Marchigiano di <span>Robotica</span>");
-        };
-      };
-    </script>
-
     <!-- Popup -->
     <div id="Richiesta-accettata" class="overlay">
       <div class="popup">
@@ -78,7 +70,7 @@
 
     <!-- Hero  -->
     <div class="hero" id="hero">
-      <div class="subtitle">
+      <div class="subtitle" data-aos=zoom-in>
         <h3 id="subtitle-change">Benvenuto al Contest Regionale di <span>Robotica</span> delle Marche</h3>
       </div>
       <h2>MarcheRobot</h2>
@@ -213,7 +205,7 @@
       <p> ® MarcheRobot - ospitato dal Liceo Enrico Medi di Senigallia<br>Viale IV Novembre, 21  60019 Senigallia (AN)<br>In questo sito usiamo solo cookies tecnici che non richiedono approvazione degli utenti</p>
     </div>
 
-    <script src="script.js"></script>
+    <script async src="script.js"></script>
 
 </body>
 </html>

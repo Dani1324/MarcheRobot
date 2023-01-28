@@ -6,6 +6,14 @@ AOS.init({
   duration: 1100,
 });
 
+
+function textchange() {
+  if (width < 1025) {
+    $("#subtitle-change").html("Benvenuto al Contest Marchigiano di <span>Robotica</span>");
+  };
+};
+
+
 // Add smooth scrolling to all links
 $("a.smooth").on('click', function(event) {
 
