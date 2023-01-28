@@ -1,5 +1,27 @@
 const width = window.innerWidth > 0 ? window.innerWidth : screen.width;
 
+// Lazy load images
+let imagesToLoad = document.querySelectorAll("img[data-src]");
+
+function loadImages() {
+  imagesToLoad.forEach(img => {
+    if (img.getBoundingClientRect().top < window.innerHeight && img.getBoundingClientRect().bottom > 0) {
+      img.setAttribute("src", img.getAttribute("data-src"));
+      img.onload = () => {
+        img.removeAttribute("data-src");
+      };
+    }
+  });
+}
+
+// Carico le immagini quando la pagina è pronta
+loadImages();
+
+// Carico le immagini in seguito allo scroll
+window.addEventListener("scroll", loadImages);
+
+
+
 // AOS animation library
 AOS.init({
   offset: 300,
