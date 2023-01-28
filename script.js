@@ -1,31 +1,5 @@
 const width = window.innerWidth > 0 ? window.innerWidth : screen.width;
 
-// Creiamo un nuovo osservatore
-const observer = new IntersectionObserver(entries => {
-  // Iteriamo su ogni elemento osservato
-  entries.forEach(entry => {
-    // Verifichiamo se l'elemento è visibile
-    if (entry.intersectionRatio > 0) {
-      // Carichiamo l'immagine solo se è visibile
-      let lazyImage = entry.target.querySelector('img[data-src]');
-      if(lazyImage.src.endsWith(".webp")) return;
-      lazyImage.src = lazyImage.dataset.src;
-
-      // Rimuoviamo l'elemento dall'osservatore
-      observer.unobserve(entry.target);
-    }
-  });
-});
-
-// Prendiamo tutti gli elementi con classe "lazy-load"
-const images = document.querySelectorAll('.lazy-load');
-
-// Aggiungiamo ogni elemento all'osservatore
-images.forEach(image => {
-  observer.observe(image);
-});
-
-
 // AOS animation library
 AOS.init({
   offset: 300,
