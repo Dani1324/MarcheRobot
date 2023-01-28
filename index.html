@@ -24,6 +24,14 @@
   </head>
   <body onload="textchange()">
 
+    <script type="text/javascript">
+      function textchange() {
+        if (width < 1025) {
+          $("#subtitle-change").html("Benvenuto al Contest Marchigiano di <span>Robotica</span>");
+        };
+      };
+    </script>
+
     <!-- Popup -->
     <div id="Richiesta-accettata" class="overlay">
       <div class="popup">
@@ -82,14 +90,6 @@
         </div>
       </a>
     </div>
-
-    <script type="text/javascript">
-      function textchange() {
-        if (width < 1025) {
-          $("#subtitle-change").html("Benvenuto al Contest Marchigiano di <span>Robotica</span>");
-        };
-      };
-    </script>
 
     <!-- Discover section  -->
     <div class="title" id="scopri">
