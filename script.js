@@ -1,17 +1,17 @@
 const width = window.innerWidth > 0 ? window.innerWidth : screen.width;
 
+window.addEventListener("load", function() {
+  if (width < 1025) {
+    $("#subtitle-change").html("Benvenuto al Contest Marchigiano di <span>Robotica</span>");
+  };
+});
+
+
 // AOS animation library
 AOS.init({
   offset: 300,
   duration: 1100,
 });
-
-
-function textchange() {
-  if (width < 1025) {
-    $("#subtitle-change").html("Benvenuto al Contest Marchigiano di <span>Robotica</span>");
-  };
-};
 
 
 // Add smooth scrolling to all links
