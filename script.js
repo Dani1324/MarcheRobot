@@ -1,25 +1,29 @@
 const width = window.innerWidth > 0 ? window.innerWidth : screen.width;
 
-// Lazy load images
-let imagesToLoad = document.querySelectorAll("img[data-src]");
+// Creiamo un nuovo osservatore
+const observer = new IntersectionObserver(entries => {
+  // Iteriamo su ogni elemento osservato
+  entries.forEach(entry => {
+    // Verifichiamo se l'elemento è visibile
+    if (entry.intersectionRatio > 0) {
+      // Carichiamo l'immagine solo se è visibile
+      let lazyImage = entry.target.querySelector('img[data-src]');
+      if(lazyImage.src.endsWith(".webp")) return;
+      lazyImage.src = lazyImage.dataset.src;
 
-function loadImages() {
-  imagesToLoad.forEach(img => {
-    if (img.getBoundingClientRect().top < window.innerHeight && img.getBoundingClientRect().bottom > 0) {
-      img.setAttribute("src", img.getAttribute("data-src"));
-      img.onload = () => {
-        img.removeAttribute("data-src");
-      };
+      // Rimuoviamo l'elemento dall'osservatore
+      observer.unobserve(entry.target);
     }
   });
-}
+});
 
-// Carico le immagini quando la pagina è pronta
-loadImages();
+// Prendiamo tutti gli elementi con classe "lazy-load"
+const images = document.querySelectorAll('.lazy-load');
 
-// Carico le immagini in seguito allo scroll
-window.addEventListener("scroll", loadImages);
-
+// Aggiungiamo ogni elemento all'osservatore
+images.forEach(image => {
+  observer.observe(image);
+});
 
 
 // AOS animation library
